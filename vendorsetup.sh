@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_LUNCH_CHOICES twrp_mdh40lm-user
-COMMON_LUNCH_CHOICES twrp_mdh40lm-userdebug
-COMMON_LUNCH_CHOICES twrp_mdh40lm-eng
+add_lunch_combo twrp_mdh40lm-user
+add_lunch_combo twrp_mdh40lm-userdebug
+add_lunch_combo twrp_mdh40lm-eng
