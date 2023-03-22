@@ -19,3 +19,6 @@
 /sspm_1                     emmc     /dev/block/platform/bootdevice/by-name/sspm_1           flags=display=sspm_1
 /sspm_2                     emmc     /dev/block/platform/bootdevice/by-name/sspm_2           flags=display=sspm_2
 /spmfw                      emmc     /dev/block/platform/bootdevice/by-name/spmfw            flags=display=spmfw
+# Removable storage
+/external_sd                vfat     /dev/block/mmcblk0p1 /dev/block/mmcblk0                 flags=storage;wipeingui;removable
+/usb-otg                    vfat     /dev/block/sdf1      /dev/block/sdf                     flags=display="USB-OTG";storage;wipeingui;removable
