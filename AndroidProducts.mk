@@ -5,10 +5,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_mdh40lm.mk
-
-COMMON_LUNCH_CHOICES := \
-    twrp_mdh40lm-user \
-    twrp_mdh40lm-userdebug \
-    twrp_mdh40lm-eng
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/twrp_mdh40lm.mk
+    

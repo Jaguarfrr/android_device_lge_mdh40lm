@@ -87,8 +87,6 @@ TARGET_BOARD_PLATFORM := mt6765
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
-# Set FSTAB
-TARGET_RECOVERY_FSTAB := $(LOCAL_PATH)/recovery/root/etc/recovery.fstab
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
@@ -114,3 +112,5 @@ TW_INCLUDE_NTFS_3G := true                    # Include NTFS Filesystem Support
 TW_INCLUDE_FUSE_EXFAT := true                 # Include Fuse-ExFAT Filesystem Support
 TWRP_INCLUDE_LOGCAT := true                   # Include LogCat Binary
 TW_INCLUDE_FB2PNG := true
+TW_DEFAULT_LANGUAGE := es                     # Set Default Language 
+TW_NO_REBOOT_BOOTLOADER := true
