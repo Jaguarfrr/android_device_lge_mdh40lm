@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_mdh40lm.mk
+    $(LOCAL_DIR)/twrp_mdh40lm.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_mdh40lm-user \
-    omni_mdh40lm-userdebug \
-    omni_mdh40lm-eng
+    twrp_mdh40lm-user \
+    twrp_mdh40lm-userdebug \
+    twrp_mdh40lm-eng
