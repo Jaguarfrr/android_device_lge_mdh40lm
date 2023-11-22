@@ -9,14 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common Twrp stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from mdh40lm device
 $(call inherit-product, device/lge/mdh40lm/device.mk)
 
 PRODUCT_DEVICE := mdh40lm
-PRODUCT_NAME := omni_mdh40lm
+PRODUCT_NAME := twrp_mdh40lm
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LM-Q630
 PRODUCT_MANUFACTURER := lge
